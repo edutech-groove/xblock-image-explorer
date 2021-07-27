@@ -28,6 +28,8 @@ setup(
     packages=['image_explorer'],
     install_requires=[
         'XBlock>=1.2',
+        'parsel==1.2.0',
+        'transifex-client==0.13.4',
     ],
     entry_points={
         'xblock.v1': 'image-explorer = image_explorer:ImageExplorerBlock',

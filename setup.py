@@ -23,13 +23,13 @@ def package_data(pkg, root_list):
 
 setup(
     name='edt-xblock-image-explorer',
-    version='1.0.1',
+    version='1.0.3',
     description='XBlock - Image Explorer',
     packages=['image_explorer'],
     install_requires=[
         'XBlock>=1.2',
-        'parsel==1.2.0',
-        'transifex-client==0.13.4',
+        'parsel==1.5.1',
+        'transifex-client==0.13.5',
     ],
     entry_points={
         'xblock.v1': 'image-explorer = image_explorer:ImageExplorerBlock',
